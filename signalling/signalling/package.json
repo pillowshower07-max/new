@@ -1,0 +1,16 @@
+{
+  "name": "minimalpeer-signaling",
+  "version": "1.0.0",
+  "description": "WebSocket signaling server for MinimalPeer screen sharing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["webrtc", "signaling", "websocket", "screen-sharing"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}
